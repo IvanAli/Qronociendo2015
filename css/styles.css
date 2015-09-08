@@ -1,0 +1,256 @@
+/*body {
+    margin-top: 70px;   
+}
+*/
+
+@font-face {
+    font-family: KlavikaRegular;
+    src: url('KlavikaRegular-OSF_0.otf');
+    src: url('KlavikaBoldBold_0.otf');
+    src: url('KlavikaLight-OSF_0.otf');
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url('../fonts/Amaranth-Regular.ttf');
+}
+
+body {
+    font-family: Oswald;
+    /*font-family: "KlavikaRegular";*/   
+    font-size: 18px;
+}
+
+p {
+     font-size: 20px;   
+}
+
+.barspace {
+ margin-top: 51px;   
+}
+.empty {
+ height: 51px;   
+}
+#header_main {
+	background: url(../images/qro_homeC.jpg) no-repeat center top;
+	padding-top: 190px;
+    margin-top: -20px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 700px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#header_box {
+    background-color: #3399FF;
+    min-height: 300px;
+}
+
+#header_box h1 {
+    color: white;
+    font-size: 70px;
+}
+
+.first_section {
+    /*background-color: #3399FF;*/
+    background-color: white;
+    width: 100%;
+    padding: 50px 0;
+    
+}
+
+.first_section h2, h3 {
+    font-size: 45px;
+    font-weight: 400;
+    /*color: white;*/
+    text-align: center;
+}
+
+.first_division, .second_division, .third_division, .fourth_division {
+    width: 100%;
+    padding: 60px 0;
+}
+
+.first_division {
+     background-color: white;   
+}
+.second_division {
+     background-color: dodgerblue;
+}
+.third_division {
+    background-color: deepskyblue;
+}
+.fourth_division {
+     background-color: white;   
+}
+.second_division, .third_division {
+     min-height: 574px;   
+}
+.fourth_division {
+     min-height: 616px;   
+}
+
+.second_division a {
+     color: white;   
+}
+.first_division h3, .second_division h3, .third_division h3, .fourth_division h3 {
+    font-size: 26px;
+    font-weight: 600;
+    text-align: left;
+}
+
+#header_main h1 {
+	color: white;
+	font-weight: 900;
+	font-size: 80px;
+	letter-spacing: 5px;
+}
+
+#header_main h3 {
+	color: white;
+	font-weight: 900;
+	font-size: 30px;
+    letter-spacing: 4px;
+	
+}
+
+#header_main h4 {
+	color: white;
+	font-weight: 900;
+	font-size: 19px;
+	
+}
+
+/* logo stuff */
+.logo-position {
+    margin-top: -20px;
+}
+
+.logo-size {
+     height: 55px;   
+}
+
+.bs-docs-header h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+.bs-docs-header h3 {
+    color: lightgray;
+    text-align: left;
+    font-size: 20px;
+}
+.bs-docs-header,.bs-docs-masthead {
+    position:relative;
+    padding:60px 0;
+    color:#cdbfe3;
+    text-align:left;
+    text-shadow:0 1px 0 rgba(0,0,0,.1);
+    background-color:#3399FF;
+    /*background-image:-webkit-gradient(linear,left top,left bottom,from(#563d7c),to(#6f5499));
+    background-image:-webkit-linear-gradient(top,#563d7c 0,#6f5499 100%);
+    background-image:-o-linear-gradient(top,#563d7c 0,#6f5499 100%);
+    background-image:linear-gradient(to bottom,#563d7c 0,#6f5499 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#563d7c', endColorstr='#6F5499', GradientType=0);
+    background-repeat:repeat-x*/
+}
+
+.first_division h4 {
+    color: dodgerblue;   
+    text-align: center;
+    font-size: 23px;
+}
+
+.second_division h4 {
+    color: white;   
+    text-align: center;
+    font-size: 23px;
+}
+
+.first_section h4 {
+     text-align: center;
+    font-size: 23px;
+}
+/*
+.first_division .col-md-4 p {
+     text-align: center;   
+}
+*/
+.first_division .col-md-4 img, .second_division .col-md-4 img {
+    max-width: 250px; 
+    display: block;
+    margin: 0 auto;
+}
+
+.col-md-6 img {
+    max-width: 90%; 
+    max-height: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+/*
+.second_division img, .third_division img {
+    min-width: 200px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+*/
+.fiftypercent img {
+     max-width: 50%;   
+}
+.fourth_division img {
+    min-width: 70%;
+    max-width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.vertical-align {
+     display: flex;
+    align-items: center;
+}
+.first_section p {
+    text-align: center;   
+}
+.first_section img {
+     max-width: 100%;   
+    display: block;
+    margin: 0 auto;
+}
+.page_footer {
+    border-top: 1px solid lightgray;
+    min-height: 160px;
+    padding-top: 75px;
+    /*background-color: dodgerblue;*/
+    /*color: white;*/
+    color: dodgerblue;
+    font-size: 12px;
+    text-align: center;
+}
+.line {
+    height: 1px;
+    background-color: lightgray;
+}
+
+.center {
+    text-align: center;
+}
+
+img.img-border {
+    border-color: black;
+    border-width: 12px;
+}

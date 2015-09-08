@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="assets/img/favicon.ico"> -->
+
+    <title>Qronociendo</title>
+    
+    
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="bootstrap-3.3.4-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-3.3.4-dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="bootstrap-3.3.4-dist/css/bootstrap-theme.min.css">
+
+   
+    <!-- my styles (by Ivan) -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  </head>
+  
+  <body>
+   
+   <!-- navigation bar -->
+   <nav class="navbar navbar-blue">
+      <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#"><img class="logo-position logo-size" src="images/logo_big.png"></a>
+        </div>
+         <ul class="nav navbar-nav">
+           <li class="active"><a href="#">Home</a></li>
+           <li><a href="#">I'm new to Queretaro</a></li>
+           <li><a href="#">I'm new to Tec</a></li>
+           <!-- <li><a href="#">Trending at Queretaro</a></li> -->
+           <li class="dropdown">
+               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Trending at Queretaro <span class="caret"></span></a>
+               <ul class="dropdown-menu">
+                   <li><a href="#">Life at Night</a></li>
+                   <li><a href="#">Cheap places to eat at</a></li>
+                   <li><a href="#">I'm looking for a roomie</a></li>
+                   <li><a href="#">Artistic events</a></li>
+               </ul>
+           </li>
+           <li><a href="#">Trending at Tec</a></li>
+       </ul> 
+      </div>
+   </nav>
+   
+   <div id="header_main">
+       <div class="container">
+          <h3>Welcome to</h3>
+           <h1>QRONOCIENDO</h1>
+           <h4>Get to know about the trending stuff at Querétaro and Tec de Monterrey</h4>
+       </div>
+    </div>
+    
+    <div id="first_section">
+        <div class="container">
+            <h2>What is Qronociendo?</h2>
+            <br />
+            <p>Qronociendo is an acronym derived from the words <b>Querétaro</b> and <b>conociendo</b>, and this is to show that its serves the purpose of <b>"getting to know Querétaro"</b></p>
+            <p>This is a website intended for guys, just like you, who just arrived to Querétaro and have no clue about how to have fun :(</p>
+            <p>If you're new at this school as well, you might find it useful to get to know about it asap.</p>
+            <h3>So this is the right place to get started!</h3>
+        </div>
+    </div>
+  
+  
+  </body>
+  
+</html>
